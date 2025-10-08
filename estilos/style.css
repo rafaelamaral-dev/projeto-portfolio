@@ -7,6 +7,7 @@
   --destaque-inverso
   --fundo-card
 */
+@charset "UTF-8";
 
 * {
   margin: 0;
@@ -103,7 +104,7 @@ div#social {
 }
 
 div#social {
-  color: var(--destaque)
+  color: var(--destaque);
   transition: color 0.5s;
 }
 
