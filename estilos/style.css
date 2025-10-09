@@ -78,6 +78,10 @@ section#ficha img.foto {
   width: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
+  /* ajusta a posição do conteúdo da imagem dentro do crop circular
+     valores típicos: '50% 50%' (centro), '50% 15%' (mais para cima)
+     ajuste este valor até a cabeça ficar totalmente visível */
+  object-position: 50% 15%;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
